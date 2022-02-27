@@ -16,14 +16,14 @@
 
 
 	</head>
-	<body>
+	<body >
 		
-		<div class="col-10 mx-auto container m-5" >
+		<div class="col-8 mx-auto container_main " >
 
 			<!-- HEADSHOT INTRO -->
-			<div class="row justify-content-center" width="100%">
+			<div class="row mx-auto" width="100%" >
 				<!-- HEADSHOT IMG -->
-				<div class="col-4" >
+				<div class="col-3">
 
 					<div class="p-3 mx-auto">
 						<img class='headshot' src="Head_Shot.PNG">
@@ -32,10 +32,15 @@
 				</div>
 
 				<!-- INTO HEADER -->
-				<div class="col-8">
-					<div class="p-3">
+				<div class="col-9 mx-auto" >
+					<div class="p-3" style='text-align:center;'>
 						<h1>Jawad Iqbal</h1>
-						<h1>jawsqb@gmail.com</h1>
+						<h2>Cambridge, Massachusetts</h2>
+						<h2>jawsqb@gmail.com</h2>
+						<hr>
+						<h2>
+							I am a software developer extremely pashionate about developing usefull tools. I have a breadth of experience ranging from manufacturing and mechanical design to data science and web development. 
+						</h3>
 					</div>
 					
 				</div>
@@ -43,93 +48,242 @@
 
 			</div>
 
+			<!-- INTRO P2 -->
 			<!-- EDUCATION ROWS -->
-			
-			
-			<div class="row justify-content-center" width="100%">
+			<div class="row m-1" width="100%">
+				
 				<hr>
-					<h2 class="section_header" >Education </h2>
+				<h2 class="section_header" >Education </h2>
 				<hr>
-				<!-- CONTENT -->
-				<div class="col-12">
-					<div class="row">
-						<h3>University of Georgia </h3>
-						<h5>
-							BS Mechanical Engineering (Emphasis in Modeling and Controls) | May 2019 | GPA:3.5 | EIT Certified
-						</h5>
-						<br>
-						<h5>
-							Masters Mechanical Engineering (Research Focus in Robotics/Mechatronics) | Graduation: May 2020 
-						</h5>
-					</div>
+				<div class="col-6">
+					<h2>University of Georgia </h2>
+					<h4>
+						Masters Mechanical Engineering (Research Focus on applied Robotics) | Graduation: May 2020 
+					</h4>
 
 				</div>
 
+				<div class="col-6">
+					<h2>University of Georgia </h2>
+					<h4>
+						BS Mechanical Engineering (Emphasis in Modeling and Controls) | May 2019 | GPA:3.5 | EIT Certified
+					</h4>
+				</div>
+				
 			</div>
 			
+			<!-- SKILLS ROWS -->
+			<div class="row m-1  " >
+				
+				<hr>
+				<h2 class="section_header" >Skill-Sets </h2>
+				<hr>
 
+				<div class="col-5 mx-auto skilllist">
+					<div class="row mx-auto" >	
+						⇒ Software: Python, Javascript, C++ 
+						<br>
+						⇒ Web Dev: Django, Flask, Dash 
+						<br>
+						⇒ DevOps: AWS, Kubernetes
+						<br>
+						⇒ Machine Learning: Natural Language Processing, Computer Vision
+
+					</div>
+	
+				</div>
+				<div class="col-5 mx-auto skilllist">
+					<div class="row mx-auto">	
+
+						⇒ Robotics: ROS (Robot Operating System), Linux
+						<br>
+						⇒ Fabrication: 3-D Printing, SLA Printing, Laser Cutting , CNC , Waterjet 
+						<br>
+						⇒ CAD: Autodesk Inventor, Fusion 360, Solidworks, Sketchup 
+					</div>
+	
+				</div>
+				
+			</div>
+
+			
 			<!-- EXPERIENCE ROWS -->
-			<div class="row justify-content-center" width="100%">
-				<hr>
-					<h2 class="section_header">EXPERIENCE </h2>
-				<hr>
-
-				<!-- LOCKHEED MARTIN -->
+			<div class="row  m-1" width="100%">
+				
+				
 				<div class="col-12">
-					<div class="row mx-auto">
-						
+					<hr>
+					<h2 class="section_header">EXPERIENCE </h2>
+					<hr>
 
+					<!-- LOCKHEED MARTIN -->
+					<div class="row mx-auto">
 						<div class="card">
 							<div class="card-header">
 								<h3>Lockheed Martin </h3>
 							</div>
 							<div class="card-body">
-								Developed an AWS based mobile web application that allows users to use their phones to take pictures and upload audit issues into a cloud database, saving 461 hours/month enterprise wide on manual labor.
-							</div>
-							<div class="card-body">
-								Developed a tool audit web application where user can take picture of a tool where by using Optical Character Recognition can extract Serial ID from tool and cross-reference database. Time to audit tool box reduced by 75% (1 hr to 15 min)
+								<div class="atom_task">
+									⇒ Managed a 250k IRAD to develop a design assistant using natural language processing to allow for semantic query and semantic search using Haystack and ElasticSearch
+								</div>
+								<div class="atom_task">
+									⇒ Developed an enterprise wide auditing web app solution, digitally transforming a manual process, saving 461 hours/month enterprise wide with over 100+ internal users.  Web app was developed using Django and deployed on AWS.
+								</div>
+								<div class="atom_task">
+									⇒ Developed a tool control mobile web app where users can take picture of a tool where by using Optical Character Recognition can extract Serial ID from tool and cross-reference database. Time to audit tool box reduced by 75% (1 hr to 15 min)
+								</div>
 							</div>
 						</div>
-
-
-
-						<h5>
-							
-						</h5>
 					</div>
 
-				</div>
-
-				<!-- GRADUATE RESEARCHER -->
-				<div class="col-12">
+					<!-- GRADUATE RESEARCHER -->
 					<div class="row mx-auto">
-						
-
 						<div class="card">
 							<div class="card-header">
-								<h3>Graduate Researcher </h3>
+								<h3>Robotics Graduate Researcher</h3>
 							</div>
 							<div class="card-body">
-								Developed autonomous control and path planning systems in python and C++ that utilizes forward and inverse kinematics of an unmanned differential drive ground vehicle for autonomous GPS waypoint navigation.
-								Kalman Filter based sensor fusion of lidar, GPS, IMU and wheel encoders.
-							</div>
-							<div class="card-body">
-								Developed custom sensor payload system for data collection of georeferenced data
-								Lidar based Adaptive Monte Carlo Localization, linearly actuated soil sensor probe to detect moisture content.
+	
+								<div class="atom_task">
+									⇒ Developed autonomous control and path planning systems in python and C++ that utilizes forward and inverse kinematics of an unmanned differential drive ground vehicle for autonomous GPS waypoint navigation.
+									Kalman Filter based sensor fusion of lidar, GPS, IMU and wheel encoders.
+									
+								</div>
+	
+	
+								<div class="atom_task">
+									⇒ Developed custom sensor payload system for data collection of georeferenced data
+									Lidar based Adaptive Monte Carlo Localization.
+								</div>
 							</div>
 						</div>
+					</div>
+					
+					<!-- ABB CO-OP -->
+					<div class="row mx-auto">
+						<div class="card">
+							<div class="card-header">
+								<h3>ABB Mechanical Engineer CO-OP </h3>
+							</div>
+							<div class="card-body">
+	
+								<div class="atom_task">
+									⇒ Worked full-time at an alternating current motor manufacturing facility for 3 semester rotations (As well as working during academic period) in which I was heavily involved with optimization of workflow (Lean Flex Flow, Sigma Six) of manufacturing cells through discrete event simulation (Simul8) under supervision of the plant manager.
+									
+								</div>
+	
+	
+							</div>
+						</div>
+					</div>
 
 
 
-						<h5>
-							
-						</h5>
+				</div>
+			</div>
+
+			<!-- PUBLICATIONS ROWS -->
+			<div class="row  m-1" width="100%">
+				
+				
+				<hr>
+				<h2 class="section_header">PUBLICATIONS </h2>
+				<hr>
+				<div class="col-12 mx-auto skilllist">
+					<h4>
+						⇒ Simulation of an Autonomous Mobile Robot for LiDAR-Based In-Field Phenotyping and Navigation , https://doi.org/10.3390/robotics9020046
+						
+					</h4>
+					
+					<h4>
+						⇒ Development of a Multi-Purpose Autonomous Differential Drive Mobile Robot for Phenotyping and Sensing, https://doi.org/10.3390/electronics9091550
+					</h4>
+
+					
+
+				</div>
+			</div>
+
+
+			<!-- LEADERSHIP ROWS -->
+			<div class="row  m-1" width="100%">
+				
+				
+				<div class="col-12">
+					<hr>
+					<h2 class="section_header">LEADERSHIP </h2>
+					<hr>
+
+					<!-- BSAIL Robotics Systems Lead -->
+					<div class="row mx-auto">
+						<div class="card">
+							<div class="card-header">
+								<h3>BSAIL Robotics Systems Lead</h3>
+							</div>
+							<div class="card-body">
+								<div class="atom_task">
+									Supervised 15+ undergraduate students on interdependent robotics projects that fulfilled research lab’s goal of developing autonomous robot technologies for surveying and data collection
+									
+								</div>
+
+
+								
+								<ul>
+									<li>
+										<span class='listbullet'>
+											CURO Research: Custom Low Altitude Surveying Drone using low cost multispectral cameras.
+										</span>
+									</li>
+									<li>
+										<span class='listbullet'>
+										Senior Capstone: Custom servo-based robot arm with an RGB camera end effector for multiangle imaging
+										</span>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Founder/ President: Student Aerospace Initiative (SAI) -->
+					<div class="row mx-auto">
+						<div class="card">
+							<div class="card-header">
+								<h3>President: Aerospace Club</h3>
+							</div>
+							<div class="card-body">
+								<div class="atom_task">
+									Founder and president of the first Aerospace Engineering Club at University of Georgia
+									
+								</div>
+								<ul>
+									<li>
+										<span class='listbullet'>
+											Top Ranked Engineering club for 2019
+										</span>
+									</li>
+									<li>
+										<span class='listbullet'>
+											AIAA Chapter with 150+ members with UGA College of Engineering
+										</span>
+									</li>
+
+								</ul>
+
+								<div class="atom_task">
+									Captain of engineering team that placed top 5 for national rocket competition (2018 Alkarocket Competition)
+								</div>
+							</div>
+						</div>
 					</div>
 
 				</div>
-
-				<hr>
 			</div>
+
+
+
+
+
 		</div>
 
 
